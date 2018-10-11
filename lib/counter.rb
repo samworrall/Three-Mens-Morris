@@ -1,7 +1,7 @@
 class Counter
   attr_reader :colour
 
-  def initialize
-    @colour = "white"
+  def initialize(colour)
+    @colour = colour
   end
 end
