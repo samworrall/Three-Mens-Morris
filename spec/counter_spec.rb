@@ -1,6 +1,6 @@
 require 'counter'
 
-describe Counter do
+describe Counter, :counter do
 
   context 'White counter' do
     let(:subject) { Counter.new("white") }
